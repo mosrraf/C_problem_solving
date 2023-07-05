@@ -1,0 +1,11 @@
+fibonacci sequence: 1,2,3,5,8,13,21,34,55,89,....
+target: find sum of even numbers in the sequence
+pseudo code:
+	1-declare and initialize two integers previous at 1 and next at 2.
+	2-declare and initialize sum at 0.
+	3-if next is divisible by 2.
+		add it to sum.
+	4-declare and initialize temp to be previous+next.
+	5-set previous to be next and next to be temp.
+	6-loop from 3-5 till next exceeds 4000000.
+	7-print the sum.
