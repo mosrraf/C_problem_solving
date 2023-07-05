@@ -1,0 +1,11 @@
+multiple of 3 & 5 Sequence: 3,5,6,9,10,12,15,18,20,21,24,25,.....
+pseudo code:
+	1-the target is 1000 divide it by 5 once and  3 other time and store it in by_3 and by_5.
+	2-declare a variable called counter and initialize it at 1.
+	3-declare and initialize sum at 0.
+	4-loop twice:
+		#3_loop:
+			from 1 to by_3 and add to sum but ignore multiple of5.
+		#5_loop:
+			from 1 to by_5 and add to sum.
+	5-print the sum.
